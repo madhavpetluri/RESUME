@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body{
+            border: 2px solid black;
+            margin: 1% 24%;
+            padding: 0% 1%;
+        }
+        .email{
+            color: blue;
+            text-align: center;
+        }
+        .email span{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+   
+    <script>
+        let name=document.createElement("h1");
+        name.innerHTML="MADHAVA VEENKATA SAINADH";
+        name.style.textAlign="center"
+        console.log(name)
+
+        let mail=document.createElement("p");
+        mail.innerHTML="<span>Mail:</span><u>madhavpetluri@gmail.com</u> <span>Contact no: 885680060</span><br><span>Linkedin:</span><u>https://www.linkedin.com/in/madhav-petluri-582013254/</u> <br> <span>Github:</span><u>https://github.com/madhavpetluri</u>";
+        mail.setAttribute("class","email")
+
+        let header=document.createElement("h2");
+        header.innerHTML="Carrier Objective";
+        header.style.color="black"
+        console.log(header);
+
+        let para=document.createElement("p");
+        para.innerHTML="<hr>An enthusiastic and motivated Associate System Engineer with a solid foundation in programming, currently enhancing skills in Java, Node.js and C++ . Eager to contribute to team objectives by Design, coding, testing, and maintaining software applications across diverse platforms. Passionate about continuous learning, with a strong grasp of the Software Development Life Cycle and a commitment to professional growth. ";
+        console.log(para);
+        
+        
+        let edu=document.createElement("h2");
+        edu.innerHTML="EDUCATION";
+        edu.style.color="black"
+        console.log(edu);
+
+        let details=document.createElement("p");
+        details.innerHTML="<hr><pre>B.TECH        Computer Science and Engineering(CSE)                                              78%<br><br>Priyadarshini Institute of Technology and Management ,Guntur                                     2020-2024";
+        details.style.fontSize="15px"  
+        details.style.fontFamily="arial"
+        console.log(details);
+
+        let tech=document.createElement("h2");
+        tech.innerHTML="TECHNICAL SKILLS";
+        tech.style.color="black"
+        console.log(tech);
+
+        let techdt=document.createElement("p");
+        techdt.innerHTML="<hr><ul><li><pre>Frontend Languages:                        HTML, CSS, JavaScript"; 
+        techdt.style.fontSize="15px"  
+        techdt.style.fontFamily="arial"    
+        console.log("techdt");   
+        
+        
+        let techdt1=document.createElement("p");
+        techdt1.innerHTML="<ul><li><pre>Framework:                                 Bootstrap, Django, Flask"; 
+        techdt1.style.fontSize="15px"  
+        techdt1.style.fontFamily="arial"    
+        console.log("techdt1"); 
+
+
+        let techdt2=document.createElement("p");
+        techdt2.innerHTML="<ul><li><pre>Backend Languages:                         Python"; 
+        techdt2.style.fontSize="15px"  
+        techdt2.style.fontFamily="arial"    
+        console.log("techdt2");
+
+        
+        let techdt3=document.createElement("p");
+        techdt3.innerHTML="<ul><li><pre>Database:                                  SQL"; 
+        techdt3.style.fontSize="15px" 
+        techdt3.style.fontFamily="arial"    
+        console.log("techdt3");
+
+
+        let techdt4=document.createElement("p");
+        techdt4.innerHTML="<ul><li><pre>Developer-Tools:                           Git Hub,Vs Code"; 
+        techdt4.style.fontSize="15px"  
+        techdt4.style.fontFamily="arial"    
+        console.log("techdt4"); 
+
+
+
+        let prjt=document.createElement("h2");
+        prjt.innerHTML="PROJECT";
+        prjt.style.color="black"
+        console.log("prjt");
+
+        let prjt1=document.createElement("h4");
+        prjt1.innerHTML="<hr>PREDICTION OF CAR PERFORMANCE USING MACHINE LEARNING";
+        console.log("prjt1");
+
+        
+        let prjt1p=document.createElement("p");
+        prjt1p.innerHTML="<ul><li> Auto MPG Data Report: Created car Miles Per Gallon (MPG) prediction machine learning model with 95% accuracy on test using Random Forest Regressor. ";    
+        console.log("prjt1p");
+
+        let prjt1p1=document.createElement("p");
+        prjt1p1.innerHTML="<ul><li> It provides an user friendly web interface to input car features and will give the real time prediction of MPG using Flask & JavaScript.  ";
+        console.log("prjt1p1");
+
+        
+        let prjt1p2=document.createElement("p");
+        prjt1p2.innerHTML="<ul><li> Proved the utility of machine learning in increasing a car's ability and minimizing emissions.   ";
+        console.log("prjt1p2");
+
+        let soft=document.createElement("h2");
+        soft.innerHTML=" SOFT SKILLS"
+        soft.style.color="black"
+        console.log("soft");
+
+        let soft1=document.createElement("p");
+        soft1.innerHTML="<hr><ul><li>Time management and multitasking "
+        console.log("soft1");
+
+        let soft2=document.createElement("p");
+        soft2.innerHTML="<ul><li>Collaboration"
+        console.log("soft2");
+
+        let soft3=document.createElement("p");
+        soft3.innerHTML="<ul><li>Problem Solving and Good Communication"
+        console.log("soft3");
+
+        let certific=document.createElement("h2");
+        certific.innerHTML="EXPERIENCE"
+        certific.style.color="black"
+        console.log("certific");
+
+        let c1=document.createElement("p");
+        c1.innerHTML="<hr><b>Company:</b> COAPPS;"
+        console.log("c1");
+
+        let c2=document.createElement("p");
+        c2.innerHTML="<b>Time Period:</b> February 2024 to April 2024 ";
+        console.log("c2");
+
+        
+        let c3=document.createElement("p");
+        c3.innerHTML="<b>Description:</b> Developed a comprehensive Human Resource Management System (HRMS) with modules for <br>Employee Onboarding, Leave Management, Performance Evaluation, Payroll Processing, Recruitment, and <br>Training & Development to streamline HR processes and enhance workforce management.";
+        console.log("c3");
+
+
+        let body=document.querySelector("body");
+        body.append(name,mail,header,para,edu,details,tech,techdt,techdt1,techdt2,techdt3,techdt4,prjt,prjt1,prjt1p,prjt1p1,prjt1p2,soft,soft1,soft2,soft3,certific,c1,c2,c3);
+
+
+    </script>
+</body>
+</html>
